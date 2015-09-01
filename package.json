@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://mca@git.emakina.net/scm/pmi/gcc-ferrari-promo.git"
+    "url": "https://sno@git.emakina.net/scm/pmi/gcc-ferrari-promo.git"
   },
   "scripts": {
     "start": "node app.js",
     "test": "mocha"
   },
   "dependencies": {
+    "config": "^1.14.0",
     "ejs": "^2.3.2",
     "express": "^4.13.1",
     "lodash": "^3.10.0",
