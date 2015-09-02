@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<style type="text/css">
+			body{
+				margin: 0px;
+				background-color: #FC0;
+				font-weight: bold;
+			}
+		</style>	
+		<script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript">
+			var socket = io.connect('http://192.168.1.7:3333');
+  			
+  			socket.on('authenticate:success', function(data){
+
+  			});
+
+			window.onload = function(){
+				socket.emit('authenticate', {uid:'snolot', token:'EA934441-90A8-4DEA-BFA1-4E16607ECACF'});
+			}
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>

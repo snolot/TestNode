@@ -1,9 +1,12 @@
 {
 	"application":{
-		"host":"192.168.1.7",
-		"port":8000
+		"host":"http://192.168.1.7",
+		"port":8000,
+		"startURL":"index.html"
 	},
 	"modules":{
-		
+		"customExample":{
+			"message":"Hello from custom module."
+		}
 	}
 }
